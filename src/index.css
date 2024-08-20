@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container,
+.container {
+  max-width: 1920px;
+  max-height: 1080px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}.Signin-container {
+  padding-top: 100px;
+
+}
+.cards-container {
+  height:600px;
+}
+.Signin-container,
+.Signin-wrapper-picture {
+  width: 50%;
+  height: 660px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Signin-container h2 {
+  color: #252525;
+  font-weight: 700;
+  font-size: 60px;
+}
+.Signin-container p {
+  color: #4b4b4b;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #252525;
+}
+.svg {
+  margin-bottom: 30px;
+}
+input,
+button {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 7px;
+  height: 45px;
+  background: #f3f3f3;
+  color: #c5c5c5;
+}
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+button {
+  background: #607afb;
+  color: white;
+}
+.Sign-Card,
+form,
+.SignUp-Card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 427px;
+  height: 250px;
+  margin-top: 20px;
+}
+.SignUp-Card,
+form {
+  height: 300px;
+}
+.Link-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./assets/rasm.jpg');
+}
+.singup-image {
+  width: 600px;
+}
+.btn-wrapper {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.container {
+  padding: 0;
+}
+.Info-container {
+  width: 40%;
+  height: 100vh;
+  padding: 100px;
+  color: white;
+  background-color: blue;
+}
+.Info-container h1 {
+  margin: 60px 0px;
+  font-size: 48px;
+  font-style: italic;
+}
+text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+button:hover {
+  transform: translate(1.1px, 1.1px);
+}
+.card {
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(34, 60, 80, 0.2);
+}
+.status {
+  background: #60dcfb;
+}
+.cards-container {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  padding: 30px;
+  background: lightgray;
+}
+.add-product-wrapper {
+  width: 40%;
+  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid aqua;
+}
+.link {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: brown;
+}
+.link:hover {
+  color: red;
+  text-decoration: underline;
+}
