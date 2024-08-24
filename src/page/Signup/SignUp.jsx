@@ -74,14 +74,14 @@ export default function SignUp() {
           />
           <input
             type="text"
-            placeholder="Login kiriting"
+            placeholder="Parol kiriting"
             value={login}
             onChange={(e) => setLogin(e.target.value)}
             ref={loginRef}
           />
           <input
             type="password"
-            placeholder="Parol kiriting"
+            placeholder="Parolni takrorlang "
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             ref={passwordRef}
